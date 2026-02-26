@@ -7,7 +7,7 @@
 <meta name="description" content="Sacramento's one-to-one HVAC contractor matching service. Get matched with one vetted, SMUD-enrolled contractor within 2 hours. Qualifying customers may receive up to $3,000 in SMUD rebates.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LcWFnksAAAAACv8ylUanY_lxgTplY0ciFygOKdg"></script>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
@@ -646,7 +646,7 @@ footer { background: #060f1e; padding: 32px; display: flex; align-items: center;
     e.preventDefault();
     const form = this;
     grecaptcha.ready(function() {
-      grecaptcha.execute('YOUR_SITE_KEY', {action:'submit'}).then(function(token) {
+      grecaptcha.execute('6LcWFnksAAAAACv8ylUanY_lxgTplY0ciFygOKdg', {action:'submit'}).then(function(token) {
         document.getElementById('recaptcha_token').value = token;
         form.style.display = 'none';
         document.querySelector('.form-notice').style.display = 'none';
